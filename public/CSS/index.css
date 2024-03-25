@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/ 
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/* starts*/
+/* ends*/
+/*--------------------------------------------------------------------------------------------*/
+/*footer starts*/
+footer
+{
+    margin-top: 72px;
+    margin: 0px 167px 0px 167px ;
+    padding: 25px;
+}
+.foot_info
+{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logo_img,.logo
+{
+    width: 257px;
+    height: 140px;
+}
+#foot_logo_info
+{
+    width: 303.45px;
+    height: 36px;
+}
+
+.foot_subscribe_title {
+    width: 421px;
+    height: 78px;
+}
+
+.subscribe_input {
+    position: relative;
+    width: 421px;
+    height: 49px;
+    background-color: rgba(6, 19, 39, 0.205);
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+#subscribe_input_placeholder {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: calc(100% - 83px); 
+    height: 49px;
+    padding-right: 90px; 
+}
+
+.btn_subscribe {
+    position: absolute;
+    width: 83px;
+    height: 33px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black; 
+    cursor: pointer;
+    margin: 10px; 
+}
+.btn_subscribe:hover
+{
+   background-color: #92cceb;
+   color: white;
+}
+.foot_references
+{
+    display: flex;
+    justify-content:space-between;
+}
+.footindi
+{
+    display: flex;
+    justify-content:space-between;
+}
+.footer_reach
+{
+    padding-bottom: 32px;
+}
+.fc_email,.fc_phno
+{
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+#fimg_icon
+{
+    border-radius: 6px;
+}
+.fc_info_con
+{
+    padding-left: 16px;
+}
+#foot_copyright
+{
+    text-align: center;
+}
+
+/*footer ends*/
