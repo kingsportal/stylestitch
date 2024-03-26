@@ -7,6 +7,84 @@ a{
     color: black;
     text-decoration: none;
 }
+
+/*Header starts*/
+.promotion
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+   
+    font-style: bold;
+}
+
+/*Header ends*/
+
+/*Naviagtion Start*/
+nav
+{
+   background: transparent;
+   backdrop-filter: blur(10px);
+    box-shadow : 0 10px 20px -5px rgba(0, 0, 0, .125);
+}
+.bg_nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 167px 0px 167px ;
+    color: black;
+}
+nav a
+{
+    color: black;
+    font-weight:600;
+}
+nav a:hover
+{
+    color: #00a6ff;
+    font-weight:600;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    margin: 0 14px; 
+}
+
+.nav_pages
+{
+    display: flex;
+    align-items: center;
+}
+
+#login_btn
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: #00a6ff;
+    border: none;
+    margin: 5px;
+}
+
+#login_btn:hover
+{
+    background-color: #30abee;
+    color: white;
+}
+   
+
+
+/*Naviagtion ends*/
+
+/*--------------------------------------------------------------------------------------------*/
+
 /*--------------------------------------------------------------------------------------------*/
 /* slider starts*/
 .slider {
@@ -20,8 +98,6 @@ a{
 
 .slider::before,
 .slider::after {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    content: "";
     height: 100px;
     position: absolute;
     width: 200px;
